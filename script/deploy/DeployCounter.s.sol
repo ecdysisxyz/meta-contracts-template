@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import {MCScript, MCDevKit} from "@mc-devkit/Flattened.sol";
+import {MCScript} from "@mc-devkit/Flattened.sol";
 import {CounterDeployer} from "./CounterDeployer.sol";
 
 contract DeployCounterScript is MCScript {
